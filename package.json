@@ -1,0 +1,19 @@
+{
+  "name": "task_10",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "sass ./assets/sass/style.scss ./assets/css/style.css && sass ./assets/sass/style.scss ./assets/css/style.min.css --style=compressed --no-source-map --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.93.0"
+  },
+  "dependencies": {
+    "bootstrap-icons": "^1.13.1"
+  }
+}
